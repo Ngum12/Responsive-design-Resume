@@ -1,0 +1,164 @@
+#contact-container
+{
+    /* height: 85vh; */
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to left top,rgb(65,0,147),rgb(0,80,239));
+}
+
+#contact-container > h1
+{
+    color:rgb(236,240,241);
+    font-size: 3rem;
+    letter-spacing: 1rem;
+}
+
+
+#container
+{
+    /* height: 65vh; */
+    width: 85%;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#form-container
+{
+    /* height: 45vh; */
+    /* border: 2px solid orangered; */
+    width: 30rem;
+    margin-bottom: 30px;
+
+}
+
+#content-container
+{
+    /* height: 45vh; */
+    /* border: 2px solid orangered; */
+    /* width: 30rem; */
+    margin-bottom: 30px;
+}
+
+
+.icon-container
+{
+     /* height: 45vh; */
+     /* border: 2px solid green; */
+     /* width: 30rem; */
+    
+}
+
+
+#form-container input
+{
+    width: 60%;
+    height: 2rem;
+    background: linear-gradient(to left top,rgb(65,0,147),rgb(0,80,239));
+
+    margin: 20px;
+    padding: 15px;
+    letter-spacing: .5rem;
+    font-size: 1rem;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgb(236,240,241);
+}
+
+#form-container textarea
+{
+    width: 60%;
+    color: white;
+    height: 2rem;
+    margin: 20px;
+    padding-left: 15px;
+    background: linear-gradient(to left top,rgb(65,0,147),rgb(0,80,239));
+    padding-top: 5px;
+    font-size: 1.2rem;
+    letter-spacing: .5rem;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid rgb(236,240,241);
+
+}
+
+#form-container button
+{   
+    margin-left: 12rem;
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background: linear-gradient(to left top,rgb(65,0,147),rgb(0,80,239));
+    text-transform: uppercase;
+    border: 2px solid white;
+    outline: none;
+    box-shadow:  6px 6px .8 black;
+}
+
+#form-container button:hover
+{
+    background:white;
+    color: blue;
+}
+
+
+#content-container h1
+{
+    color: wheat;
+    font-size: 2.4rem;
+    letter-spacing: .2rem;
+    margin-top: -10px;
+    
+}
+
+#content-container p
+{
+    color: wheat;
+    font-size: 1.3rem;
+    letter-spacing: .2rem;
+    word-spacing: .7rem;
+    margin-top: -20px;
+}
+
+.contact-information
+{
+    color: white;
+    font-size: 1.3rem;
+    letter-spacing: .2rem;
+}
+
+
+.icon-container
+{
+    height: 100px;
+    width: 100%;
+    /* border: 2px solid yellow; */
+    display:flex;
+    justify-content: center;
+}
+
+.icon-container ul li
+{
+    list-style: none;
+    display: inline-block;
+}
+
+.icon-container ul li a i
+{
+    color: white;
+    padding: 15px;
+    font-size: 2rem;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.icon-container ul li a i:hover
+{
+	box-shadow: 0px 0px 6px 6px white;
+}

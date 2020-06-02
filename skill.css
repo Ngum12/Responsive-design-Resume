@@ -1,0 +1,93 @@
+/* section */
+#skill
+{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-color: #9e9b9b29;
+    margin-top: 20px;
+
+}
+
+#skill h1
+{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: .7rem;
+    color: rgb(65,0,147);
+}
+
+/* section container after skill heading */
+
+#skill-container
+{
+    width: 75%;
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* padding: 3rem; */
+   
+}
+
+#skill-container .skill-progress
+{
+    height: 2.2rem;
+    width: 11rem;
+    /* border: 1px solid black; */
+    background-color: lightgrey;
+    border-radius: 1rem;
+    box-shadow: 1px 1px 2px 1px #b9b9b9 inset;
+    margin: 25px;
+}
+
+.skill-progress > div
+{
+    border-radius: 20px 0px 0px 20px;
+}
+
+#skill-container .skill-progress .skill-name span
+{
+    color: white;
+    font-size: 1.6rem;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+
+
+/* comman percent classes */
+
+.eighty-five-percent
+{
+    height: inherit;
+    width: 85%;
+    /* border: 1px solid black; */
+    background-color: #2857a4;
+
+}
+
+.eighty-percent
+{
+    height: inherit;
+    width: 80%;
+    /* border: 1px solid black; */
+    background-color: #ec4d1c;
+    
+
+}
+
+.fifty-percent
+{
+    height: inherit;
+    width: 50%;
+    /* border: 1px solid black; */
+    background-color: #0b8176;
+
+    
+
+}
+
+

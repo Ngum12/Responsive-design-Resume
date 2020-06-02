@@ -1,0 +1,114 @@
+/* header-container */
+
+#header-container
+{
+    height: 70vh;
+    background-image: url(images/laptop3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+/* nav-header-list */
+
+
+#header-list
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+
+#header-list li
+{
+    list-style: none;
+    margin: 10px;
+}
+
+#header-list li a
+{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 1.7rem;
+    color: white;
+}
+
+#header-list li a:hover
+{
+    text-decoration: underline;
+}
+
+/* header-heading */
+
+.header-heading
+{
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: .8rem;
+    margin-top: 3rem;
+}
+
+/* header-social-icon-list */
+
+.header-social-icon-list
+{
+    margin-top: 3rem;
+    letter-spacing: 1.2rem;
+}
+
+.header-social-icon-list li
+{
+    border-radius: 50%;
+}
+
+
+.header-social-icon-list li:hover
+{
+    
+	box-shadow: 0px 0px 6px 6px white;
+}
+
+
+/* about-section */
+
+#about-section
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-section-image img
+{
+    height: 10rem;
+    /* width: 20rem; */
+    border-radius: 50%;
+    box-shadow: 0px 0px 6px 6px wheat;
+    position: relative;
+    top: -20px;
+    /* margin-bottom: 20px; */
+}
+
+
+.about-section-para
+{
+    /* height: 65vh; */
+    /* border: 1px solid black; */
+    box-shadow: 0px 0px 6px 6px wheat;
+    padding: 2rem 4rem;
+    margin:30px;
+
+}
+
+.about-section-para p
+{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* comman-classes */
+.span-color-class
+{
+    color: blue;
+}
